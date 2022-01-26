@@ -44,7 +44,7 @@ nav{
 
  .menu li a:hover{
  	color: #ec8f13;
- 	
+ 	transform: scale(1.1);
  }
 
  .menu li a:active{
@@ -93,7 +93,7 @@ nav{
 .about_me{
 	width: 100%;
 	height: calc(100% - 60px);
-	background: url(../img/boy.png) 50% 20%/auto 20% no-repeat, url(../img/Fon.jpg) center/cover no-repeat;
+	background:url(../img/Fon.jpg) center/cover no-repeat;
   	 
 }
 
@@ -110,19 +110,32 @@ nav{
   	font-weight: bold;
 }
 
-.new p {
-	margin-top: 220px;
-	margin-left: 250px;
-	margin-right: 250px;
-	margin-bottom: 170px;
-	text-align: center;
-	color: #717883;
+.picture{
+	background: center;
+	margin-left: 650px;
+
 }
 
-.new2 p{
-	color:#717883;
+.example {
+	padding-top: : 220px;
+	margin-bottom: 50px;
 	text-align: center;
-	margin-bottom: 100px;
-	
+	color: #717883;
+padding-left: 500px;
+padding-right: 500px;
 }
+
+.text input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 5px;
+	color: #6d7682;
+	font-size: 13px;
+	padding: 0px 14px;
+	margin-left: 700px;
+	margin-right: 500px;
+}
+
 
